@@ -1,0 +1,37 @@
+html, body, *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:vaziri,sans-serif;
+    background-color: #fffafa;
+}
+@font-face {
+    font-family: vaziri;
+    src: url(../fonts/Vazir.ttf);
+}
+
+.input::placeholder{
+    color: black;
+}
+
+.input:focus{
+    outline: none;
+}
+
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    list-style:none;
+}
